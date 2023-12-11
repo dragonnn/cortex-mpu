@@ -12,8 +12,8 @@ keywords = ["memory", "cortex", "arm", "mpu", "mcu"]
 categories = ["embedded", "no-std"]
 
 [dependencies]
-cortex-m = "0.6.1"
-arrayvec = { version = "0.4.11", default-features = false }
+cortex-m = "0.7.7"
+heapless = { version = "0.8.0", default-features = false }
 
 [workspace]
 members = ["demo-*/"]
